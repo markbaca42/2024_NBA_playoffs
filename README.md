@@ -107,7 +107,7 @@
   </tr>
   <tr>
     <th>Mavs</th>
-    <th>0.51</th
+    <th>0.51</th>
     <th>0.49</th>
   </tr>
   <tr>
