@@ -1,6 +1,6 @@
 <h1>2024 NBA Playoffs</h1>
 
-
+<p1>As an avid fan of the NBA and the Dallas Mavericks, I wanted to generate new insights into the Mavericks playoff run. I primarily wanted to find what have been their key to success so far int he playoffs, by exploring which player staticts correlated most with win. Furthermore, I wanted to train a machine learning model on past playoff games in order to predict who will the 2024 NBA Finals. Finally, I wanted to explore the team statics of past champions over the course of the NBA.</p1>
 
 
 <h3 align="left">Connect with me:</h3>
