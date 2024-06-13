@@ -112,9 +112,11 @@
   </tr>
   <tr>
     <th>Celtics</th>
-    <th>0.40</th
+    <th>0.40</th>
     <th>0.60</th>
   </tr>
+</table>
+
 <p2>To apply this year's Finals matchup, I averaged each team's 2024 playoff stats and used their team averages as inputs into the model. For each team, the model returned the liklihood of the team losing or winning. The above table shows the model's predictions unfortunately favoring the Celtics. However, there is still hope for Mavs fans as the model was didn't return a high liklihood of either outcome happening. There it would suggest that this serious could be close and come down to a few plays. The outcomes of this experiment motivate me to explore how the model would score previous Finals matchups. I would be curious to see if each Finals matchup would result in an unsure prediction as the two top teams in the league should be neck and neck. I would also be curious to see which serious in the history of the NBA was the most lopsided. </p2>
 </table>
 <h3 align="left">Languages and Tools:</h3>
