@@ -55,10 +55,38 @@
   </tr>
   <tr>
     <th>Loss</th>
-    <th>03</th>
-    <th>32</th>
-    <th>.42</th
-    <th>.242</th>
+    <th>0.80</th>
+    <th>0.83</th>
+    <th>0.82</th
+    <th>102</th>
+  </tr>
+  <tr>
+    <th>win</th>
+    <th>0.83</th>
+    <th>0.80</th>
+    <th>0.82</th
+    <th>106</th>
+  </tr>
+  <tr>
+    <th>accuracy </th>
+    <th></th>
+    <th></th>
+    <th>0.82</th
+    <th>208</th>
+  </tr>
+  <tr>
+    <th>macro avg</th>
+    <th>0.82</th>
+    <th>0.82</th>
+    <th>0.82</th
+    <th>208</th>
+  </tr>
+  <tr>
+    <th>weighted avg</th>
+    <th>0.82</th>
+    <th>0.82</th>
+    <th>0.82</th
+    <th>208</th>
   </tr>
 </table>
 
