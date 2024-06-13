@@ -45,6 +45,7 @@
 <p2>While the correlation coefficients may be a good indicator of which stats correlate with the Mavericks winning, they do not imply causation. These stats only suggest that as the player statics change, the likelihood of the team winnning trends the same. </p2>
 
 <h2>Logistic Regression</h2>
+<h3>Model Performance </h3>
 <table style="width:100%">
   <tr>
     <th></th>
@@ -89,7 +90,33 @@
     <th>208</th>
   </tr>
 </table>
-
+<p2>After analyzing their past performance, I wanted to see if I could build a machine learing model that could predict if the Mavs would beat the Celtics. To do this I decided to build a logistic regression model that could predict the probablity of the team winnning. I originally wanted to train the model on each game seen during the 2024 playoffs, however this would not be a sufficient amount of data to train the model. Therefore I collected data on each playoff game since 2020 and trained the model on this larger dataset. I decided to train the model on past NBA playoff games as opposed to all NBA games as the playoffs typically demostrate a different level of competion. Teams play much harder than the regular season during these games and each team is guaranteed to be one of the better teams in the league.</p2>
+<br></br>
+<h3>Feature Selection</h3>
+<p2>When performing logistic regression it is important to choose features that are independent  Therefore I choose to select an even spread of features that captured the team's offensive success and defenisve success. To find the key features, I explored the correlation coefficients between the team stats and the team winning. After doing so, I found the best features that captured the team's success best with minimal correlation were points, steals, defencsive rebounds, assists, blocks, and field goal percentage.</p2>
+<br></br>
+<h3>Model Performance</h3>
+<p2>The above table reveals the performace of the model I trained. During training, I was able to optimize the performance by standarizing the variables accross the features to ensure that larger variables didn't overpower other features. I also explored optimizing the hyperparameters, however I found that these made no significant improvements. If more data was available, I believe I could make the model more accurate. I think adding higher-level statics such as number of contested shots or the number of fans within the stadium would provide greater insights into how the team played.</p2>
+<br></br>
+<h3>Outcomes</h3>
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>Lose Likelihood </th>
+    <th>Win Likelihood </th>
+  </tr>
+  <tr>
+    <th>Mavs</th>
+    <th>0.51</th
+    <th>0.49</th>
+  </tr>
+  <tr>
+    <th>Celtics</th>
+    <th>0.40</th
+    <th>0.60</th>
+  </tr>
+<p2>To apply this year's Finals matchup, I averaged each team's 2024 playoff stats and used their team averages as inputs into the model. For each team, the model returned the liklihood of the team losing or winning. The above table shows the model's predictions unfortunately favoring the Celtics. However, there is still hope for Mavs fans as the model was didn't return a high liklihood of either outcome happening. There it would suggest that this serious could be close and come down to a few plays. The outcomes of this experiment motivate me to explore how the model would score previous Finals matchups. I would be curious to see if each Finals matchup would result in an unsure prediction as the two top teams in the league should be neck and neck. I would also be curious to see which serious in the history of the NBA was the most lopsided. </p2>
+</table>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> </p>
 
