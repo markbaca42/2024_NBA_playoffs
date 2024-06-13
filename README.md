@@ -1,6 +1,6 @@
 <h1>2024 NBA Playoffs</h1>
 
-<p1>Applying data science to the 2024 Mavericks path to the Finals and past champions.</p1>
+
 
 
 <h3 align="left">Connect with me:</h3>
