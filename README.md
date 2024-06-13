@@ -5,6 +5,23 @@
 <h2>Data Collection</h2>
 <p2>My first step was to collect and clean the data to be used. I was able to collect data from a third party API which had several endpoints to send past and present NBA data. The code I used to collect and store this data into a csv file can be found in getStats.py and getAdvancedStats.py. These files collect data specifc to the 2024 Mavericks playoff run and past data for each NBA team respectfully. The data collect can be found in properally labeled csv files located int the same directory.</p2>
 
+<table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
 
 
 
