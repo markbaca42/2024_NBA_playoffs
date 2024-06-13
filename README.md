@@ -47,36 +47,18 @@
 <h2>Logistic Regression</h2>
 <table style="width:100%">
   <tr>
-    <th>Player</th>
+    <th></th>
     <th>Precision</th>
     <th>Recal</th>
     <th>F1-score</th
     <th>Support</th>
   </tr>
   <tr>
-    <td>Dereck Lively</td>
-    <td>Personal Fouls</td>
-    <td>0.60</td>
-  </tr>
-  <tr>
-    <td>Dereck Lively</td>
-    <td>Points</td>
-    <td>0.55</td>
-  </tr>
-  <tr>
-    <td>Dereck Lively</td>
-    <td>Free throw %</td>
-    <td>0.48</td>
-  </tr>
-  <tr>
-    <td>Luka Doncic</td>
-    <td>Field Goal %</td>
-    <td>0.52</td>
-  </tr>
-  <tr>
-    <td>Luka Doncic</td>
-    <td>Points %</td>
-    <td>0.41</td>
+    <th>Loss</th>
+    <th>03</th>
+    <th>32</th>
+    <th>.42</th
+    <th>.242</th>
   </tr>
 </table>
 
